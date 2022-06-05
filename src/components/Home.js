@@ -6,18 +6,18 @@ import image2 from '../img/shap2-slider-h4.png'
 
 const Home = () => (
   <>
-    <section class="banner w-full  h-[100vh]  ">
+    <section className="banner w-full  h-[100vh]  ">
 
-      <div class="lg:w-1/2 xl:w-1/2  h-full flex items-center">
-        <div class="   w-full h-[70vh] ">
-          <div class=" relative w-full h-full p-6 ">
-            <div class="flex justify-end lg:absolute lg:top-[30px] lg:right-[-40px] xl:absolute xl:top-[30px] xl:right-[-40px]  ">
-              <img src={image} alt="banner" class="z-50" />
+      <div className="lg:w-1/2 xl:w-1/2  h-full flex items-center">
+        <div className="   w-full h-[70vh] ">
+          <div className=" relative w-full h-full p-6 ">
+            <div className="flex justify-end lg:absolute lg:top-[30px] lg:right-[-40px] xl:absolute xl:top-[30px] xl:right-[-40px]  ">
+              <img src={image} alt="banner" className="z-10" />
             </div>
-            <div class=" absolute top-[140px]  ">
+            <div className=" absolute top-[140px]  ">
               <img src={image1} alt="banner" />
             </div>
-            <div class="absolute bottom-[130px] right-[60px] ">
+            <div className="absolute bottom-[130px] right-[60px] ">
               <img src={image2} alt="banner" />
             </div>
           </div>
@@ -26,7 +26,7 @@ const Home = () => (
 
 
     </section>
-    <section class="bg-rose-50 w-full h-[100vh]">
+    <section className="bg-rose-50 w-full h-[100vh]">
       welcome text plus images
     </section>
     <section>
