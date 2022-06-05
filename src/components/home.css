@@ -1,0 +1,27 @@
+ .banner{
+    background-image: url('../img/slider1-h4.jpg');
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+ }
+
+ .shap1{
+    background-image: url('../img/shap1-slider-h4.png');
+    background-size:     contain;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+ }
+
+ .shap2{
+    background-image: url('../img/shap2-slider-h4.png');
+    background-size:     contain;    
+    background-repeat:   no-repeat;
+    background-position: center center;
+ }
+
+ .shap3{
+    background-image: url('../img/shap3-slider-h4.png');
+    background-size:     contain;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+ }
