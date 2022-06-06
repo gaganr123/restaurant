@@ -19,7 +19,7 @@ const Home = () => (
               <div className='relative' >
                 <div>
                   <img src={image1} alt="banner" style={{ position:"relative" }} />
-                  <span className="banner1Text  text-white texl-xl font-bold" >Boom Boom Boom</span>
+                  {/* <span className="banner1Text  text-white texl-xl font-bold" >Boom Boom Boom</span> */}
                 </div>
                 <div>
                   <img src={image2} alt="banner" style={{ position: "absolute", right: " 0px", bottom: "-40px" }} />
