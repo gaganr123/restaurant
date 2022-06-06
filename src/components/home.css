@@ -1,27 +1,119 @@
- .banner{
+ .banner {
     background-image: url('../img/slider1-h4.jpg');
-    background-size:     cover;                     
-    background-repeat:   no-repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center center;
  }
 
- .shap1{
+ .shap1 {
     background-image: url('../img/shap1-slider-h4.png');
-    background-size:     contain;                     
-    background-repeat:   no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
  }
 
- .shap2{
+ .shap2 {
     background-image: url('../img/shap2-slider-h4.png');
-    background-size:     contain;    
-    background-repeat:   no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
  }
 
- .shap3{
+ .shap3 {
     background-image: url('../img/shap3-slider-h4.png');
-    background-size:     contain;                     
-    background-repeat:   no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center center;
+ }
+
+ .navBar {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ /* Media Query for Mobile Devices */
+ @media (min-width: 280px) and (max-width: 480px) {
+    .NavMidDiv {
+       display: none;
+    }
+
+    .scooty{
+       display: none;
+    }  
+
+    .sidebar{
+       margin-right: 10px;
+    }
+    
+
+    .navBar {
+       background-color: red;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+ }
+
+ /* Media Query for low resolution  Tablets, Ipads */
+ @media (min-width: 481px) and (max-width: 767px) {
+    .NavMidDiv {
+       display: none;
+    }
+    .phone{
+      display: none
+    }
+
+    .navBar {
+       background-color: blue;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+ }
+
+ /* Media Query for Tablets Ipads portrait mode */
+ @media (min-width: 768px) and (max-width: 1024px) {
+    .NavMidDiv {
+       display: none;
+    }
+    .phone{
+      display: none
+    }
+    
+
+    .navBar {
+       background-color: green;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+    }
+ }
+
+ /* Media Query for Laptops and Desktops */
+ @media (min-width: 1025px) and (max-width: 1280px) {
+
+   .NavbottomDiv {
+      display: none
+   }
+   .phone{
+      display: none
+    }
+    .sidebar{
+      display: none;
+   }
+ }
+
+ /* Media Query for Large screens */
+ @media (min-width: 1281px) {
+   .NavbottomDiv {
+      display: none
+   }
+   .phone{
+      display: none
+    }
+    .sidebar{
+      display: none;
+   }
  }

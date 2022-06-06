@@ -29,28 +29,28 @@ const Home = () => (
     <section className="bg-rose-50 w-full h-[100vh]">
       welcome text plus images
     </section>
-    <section>
+    <section className="bg-white w-full h-[100vh]">
       small menu plus images
     </section>
-    <section>
+    <section className="bg-rose-50 w-full h-[100vh]">
       servies
     </section>
-    <section>
+    <section className="bg-white w-full h-[100vh]">
       dish MEnu with cards
     </section>
-    <section>
+    <section className="bg-rose-50 w-full h-[100vh]">
       Reviews
     </section>
-    <section>
+    <section className="bg-white w-full h-[100vh]">
       staffs
     </section>
-    <section>
+    <section className="bg-rose-50 w-full h-[100vh]">
       Map plus enquiry form
     </section>
-    <section>
+    <section className="bg-white w-full h-[100vh]">
       small menu plus images
     </section>
-    <section>
+    <section className="bg-rose-50 w-full h-[100vh]">
       address
     </section>
   </>
