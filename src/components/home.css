@@ -33,20 +33,26 @@
     align-items: center;
  }
 
+ .banner1Text {
+   position: "absolute";
+   top:50px;
+   left:50px;
+}
+
  /* Media Query for Mobile Devices */
  @media (min-width: 280px) and (max-width: 480px) {
     .NavMidDiv {
        display: none;
     }
 
-    .scooty{
+    .scooty {
        display: none;
-    }  
+    }
 
-    .sidebar{
+    .sidebar {
        margin-right: 10px;
     }
-    
+
 
     .navBar {
        background-color: red;
@@ -54,6 +60,13 @@
        flex-direction: row;
        justify-content: space-between;
     }
+
+    .offerImagediv {
+       position: absolute;
+       padding-top: 30px;
+       right: 0;
+    }
+    
  }
 
  /* Media Query for low resolution  Tablets, Ipads */
@@ -61,8 +74,9 @@
     .NavMidDiv {
        display: none;
     }
-    .phone{
-      display: none
+
+    .phone {
+       display: none
     }
 
     .navBar {
@@ -71,6 +85,17 @@
        flex-direction: row;
        justify-content: space-between;
     }
+
+    .offerImagediv {
+       position: absolute;
+       padding-top: 30px;
+       right: 50px
+    }
+
+    .descriptionDiv {
+       padding-top: 60px !important
+    }
+    
  }
 
  /* Media Query for Tablets Ipads portrait mode */
@@ -78,10 +103,11 @@
     .NavMidDiv {
        display: none;
     }
-    .phone{
-      display: none
+
+    .phone {
+       display: none
     }
-    
+
 
     .navBar {
        background-color: green;
@@ -89,31 +115,69 @@
        flex-direction: row;
        justify-content: space-between;
     }
+
+    .offerImagediv {
+       position: absolute;
+       padding-top: 30px;
+       right: -50px
+    }
+
+    .descriptionDiv {
+       padding-top: 60px !important
+    }
+   
  }
 
  /* Media Query for Laptops and Desktops */
  @media (min-width: 1025px) and (max-width: 1280px) {
 
-   .NavbottomDiv {
-      display: none
-   }
-   .phone{
-      display: none
+    .NavbottomDiv {
+       display: none
     }
-    .sidebar{
-      display: none;
-   }
+
+    .phone {
+       display: none
+    }
+
+    .sidebar {
+       display: none;
+    }
+
+    .descriptionDiv {
+       padding-top: 60px !important
+    }
+
+    .offerImagediv {
+       position: absolute;
+       padding-top: 50px;
+       right: 20px;
+    }
+   
  }
 
  /* Media Query for Large screens */
  @media (min-width: 1281px) {
-   .NavbottomDiv {
-      display: none
-   }
-   .phone{
-      display: none
+    .NavbottomDiv {
+       display: none
     }
-    .sidebar{
-      display: none;
-   }
+
+    .phone {
+       display: none
+    }
+
+    .sidebar {
+       display: none;
+    }
+
+    .descriptionDiv {
+       padding-top: 60px !important
+    }
+
+    .offerImagediv {
+       position: absolute;
+       padding-top: 50px;
+       right: 20px;
+    }
+
+    
  }
