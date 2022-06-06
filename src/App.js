@@ -14,6 +14,7 @@ import Menu from './components/Menu';
 import Page from './components/Page';
 import Shop from './components/Shop';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 
 function App() {
@@ -31,7 +32,7 @@ function App() {
           <Route path="/page" element={<Page />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-
+         <Footer/>
       </BrowserRouter>
     </>
   );
